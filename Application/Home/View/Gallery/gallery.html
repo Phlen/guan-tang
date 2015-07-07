@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <include file="public/head"/>
+  <link rel="stylesheet" href="__PUBLIC__/css/gallery.css">
+  <link rel="stylesheet" href="__PUBLIC__/js/fancybox/jquery.fancybox.css">
+  <script src="__PUBLIC__/js/lib/jquery.onepage-scroll.js"></script>
+  <script src="__PUBLIC__/js/lib/jquery.easing.1.3.js"></script>
+  <script src="__PUBLIC__/js/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+  <script src="__PUBLIC__/js/gallery.js"></script>
+</head>
+<script>
+  $(document).ready(function () {
+// Global variables
+// Mouse events
+// Set-up
+// Mobile set-up
+    if (touchScreen) {
+    }
+  });
+</script>
+<body>
+<div id="showcase-loader">
+  <script>
+
+  </script>
+  <div id="archive-container-1">
+    <div id="archive-container-2">
+      <div id="archive-container-bg"></div>
+      <div id="archive-wrapper">
+        <foreach name="title" item="vo">
+          <div id="archive-projects" class="archive-projects">
+            <input type="hidden" name="p_id" data-id="{$vo.parent}" id="getPid">
+            <div class="project-title project-title-3">
+            <span>
+              <h3>{$vo.description}</h3>
+            </span>
+            </div>
+            <foreach name="img" item="data" key="k">
+              <eq name="data.post_excerpt" value="$vo.description">
+                <?php $a = mt_rand(1,6)?>
+                <a href="{$data.guid}" class="archive-thumb archive-thumb-{$a}" rel="fancybox">
+                  <img src="{$data.guid}">
+                </a>
+              </eq>
+
+            </foreach>
+          </div>
+        </foreach>
+
+      </div>
+    </div>
+  </div>
+  <div id="archive-nav">
+    <div id="archive-nav-wrapper">
+      <a href="javascript:;" id="archive-filter-link">
+        FILTER BY DATE
+        <span></span>
+      </a>
+
+      <div id="archive-nav-options">
+        <div id="archive-filter-divider"></div>
+        </br>
+          <volist name="title" id="vo" key="k">
+            <if condition="($k eq 1)">
+              <a href="{:U('Gallery/gallery', array(), '')}/id/{$vo.parent}" class="date" value="0">View All</a>
+            </if>
+
+        </volist>
+        <span class="archive-link-divider"></span>
+
+          <volist name="title" id="vo" key="k">
+            <if condition="($k eq 1)">
+              <volist name="date" id="data">
+                <a href="{:U('Gallery/getGalleryByDate', array(), '')}/id/{$vo.parent}/date/{$data.description}" class="date" data-role="{$data.description}">{$data.description}</a>
+                <span class="archive-link-divider"></span>
+              </volist>
+            </if>
+        </volist>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Sub header -->
+<div id="sub-header-container">
+  <ul id="sub-header" class="menu">
+    <li id="sub-header-casestudies"><a href="{:U('showCase/showcase')}">CASE STUDIES</a></li>
+    <volist name="nav" id="data">
+      <li><a href="{:U('Gallery/gallery', array(), '')}/id/{$data.term_id}">{$data.description}</a></li>
+    </volist>
+  </ul>
+  <ul id="sub-header-mobile">
+    <li id="sub-header-mobile-current"><a href="javascript:;">CASE STUDIES</a><span></span></li>
+    <volist name="nav" id="data">
+      <li><a href="{:U('Gallery/gallery', array(), '')}/id/{$data.term_id}">{$data.description}</a></li>
+    </volist>
+  </ul>
+</div>
+<!-- END Sub header -->
+<div id="header-bg"></div>
+<include file="public/contact"/>
+<include file="public/footer"/>
+</body>
+  <script>
+    $(function() {
+      $('.menu li a').each(function(){
+        if($($(this))[0].href==String(window.location))
+          $(this).css({color:'#33f'});
+      });
+
+    })
+  </script>
+</html>

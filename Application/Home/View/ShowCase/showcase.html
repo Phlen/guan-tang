@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <include file="public/head"/>
+  <link rel="stylesheet" href="__PUBLIC__/css/showcase.css">
+  <script src="__PUBLIC__/js/showcase.js"></script>
+</head>
+<script>
+  $(document).ready(function () {
+// Global variables
+// Mouse events
+// Set-up
+// Mobile set-up
+    if (touchScreen) {
+    }
+  });
+</script>
+<body>
+<div id="showcase-loader">
+  <div id="case-studies-container">
+    <volist name="case" id="data" key="k">
+      <div id="case-studies-item-{$k -1}" class="case-studies-item">
+        <a href="{:U('showDetail/getDetailByExcerpt', array(), '')}/excerpt/{$data.post_title}">
+          <img src="{$data.guid}">
+
+          <div class="case-studies-item-shadow"></div>
+          <div class="case-studies-item-text">
+            <!--<p>{$data.post_title}</p>-->
+          </div>
+        </a>
+      </div>
+    </volist>
+    <a href="javascript:;" id="case-studies-jump-arrow">
+      <img src="__PUBLIC__/images/icon_left_arrow.png">
+    </a>
+  </div>
+</div>
+<!-- Sub header -->
+<div id="sub-header-container">
+  <ul id="sub-header" class="menu">
+    <li id="sub-header-casestudies"><a href="javascript:;" class="current">CASE STUDIES</a></li>
+    <volist name="nav" id="data">
+      <li><a href="{:U('Gallery/gallery', array(), '')}/id/{$data.term_id}">{$data.description}</a></li>
+    </volist>
+  </ul>
+  <ul id="sub-header-mobile" class="menu">
+    <li id="sub-header-mobile-current"><a href="javascript:;">CASE STUDIES</a><span></span></li>
+    <volist name="nav" id="data">
+      <li><a href="{:U('Gallery/gallery', array(), '')}/id/{$data.term_id}">{$data.description}</a> </li>
+    </volist>
+  </ul>
+</div>
+<div id="header-bg"></div>
+
+<include file="public/contact"/>
+<include file="public/footer"/>
+</body>
+<script>
+  $(function() {
+    $('ul.menu li a').each(function(){
+      if($($(this))[0].href==String(window.location))
+        $(this).parent().addClass('active');
+    });
+
+    if($(window).width() < 768) {
+
+    }
+  })
+</script>
+</html>

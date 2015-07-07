@@ -1,0 +1,275 @@
+a#nav-link, a#contact-link:link, a#contact-link:visited {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+#showcase-loader {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  height: 100%;
+  height: -moz-calc(100% - 90px);
+  height: -webkit-calc(100% - 90px);
+  height: calc(100% - 90px);
+}
+
+#sub-header-container {
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  top: 50px;
+  -webkit-box-shadow: 0 4px 8px #3C474A;
+  -moz-box-shadow: 0 4px 8px #3C474A;
+  box-shadow: 0 4px 8px #3C474A;
+  transition: top .5s, height .25s;
+  -moz-transition: top .5s, height .25s;
+  -webkit-transition: top .5s, height .25s;
+  overflow: hidden;
+  background-color: #FFF;
+}
+
+/* line 31, ../sass/showcase.scss */
+ul#sub-header, ul#sub-header-mobile {
+  margin-top: 15px;
+}
+
+/* line 35, ../sass/showcase.scss */
+ul#sub-header li {
+  letter-spacing: 1px;
+  font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, Sans-Serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1;
+  display: inline;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+/* line 45, ../sass/showcase.scss */
+ul#sub-header li a {
+  color: #999;
+}
+/* line 18, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+ul#sub-header li a:visited {
+  color: #999;
+}
+/* line 21, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+ul#sub-header li a:focus {
+  color: #33f;
+}
+/* line 24, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+ul#sub-header li a:hover {
+  color: #33f;
+}
+/* line 27, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+ul#sub-header li a:active {
+  color: #33f;
+}
+/* line 49, ../sass/showcase.scss */
+ul#sub-header li .current {
+  color: #33f;
+}
+
+/* line 54, ../sass/showcase.scss */
+ul#sub-header-mobile li {
+  letter-spacing: 1px;
+  font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, Sans-Serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1;
+  margin-top: 15px;
+}
+
+/* line 63, ../sass/showcase.scss */
+ul#sub-header-mobile li#sub-header-mobile-current a:link, ul#sub-header-mobile li#sub-header-mobile-current a:visited {
+  color: #33F;
+}
+
+/* line 67, ../sass/showcase.scss */
+ul#sub-header-mobile li#sub-header-mobile-current span {
+  display: inline-block;
+  height: 8px;
+  width: 14px;
+  margin-left: 10px;
+  background-image: url(../images/icon_dropdown_arrow.png);
+  background-size: auto 16px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-position .5s;
+  -moz-transition: background-position .5s;
+  -webkit-transition: background-position .5s;
+}
+
+/* Archive */
+
+#archive-container-1 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  height: -moz-calc(100% - 90px);
+  height: -webkit-calc(100% - 90px);
+  height: calc(100% - 90px);
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: hidden;
+}
+
+#archive-container-bg {
+  position: absolute;
+  background-color: #EEE;
+  width: 100%;
+  height: 100%;
+}
+
+#archive-container-2 {
+  position: absolute;
+  height: 100%;
+  min-height: 130px;
+  width: 50000px;
+}
+
+#archive-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  height: 60%;
+  background-color: #FFF;
+  overflow: hidden;
+  transition: top .5s;
+  -moz-transition: top .5s;
+  -webkit-transition: top .5s;
+}
+
+a.archive-thumb, archive-projects, archive-project, .project-title, .project-end {
+  float: left;
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+}
+
+.project-end {
+  background-color: red;
+}
+
+.archive-project {
+  opacity: 0;
+}
+
+.project-start {
+  display: table;
+  width: 0;
+  height: 0;
+}
+
+.project-title {
+  display: table;
+}
+
+.project-title span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #FFF;
+}
+
+.project-title span h3 {
+  color: #00234C;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+
+a.archive-thumb img {
+  width: 100%;
+  height: 100%;
+  display: none;
+  -webkit-transform: translateZ(0);
+}
+
+#archive-nav a:link, #archive-nav a:visited {
+  color: #00234C;
+  line-height: 1;
+  font-size: 14px;
+}
+
+#archive-nav a:active, #archive-nav a:hover {
+  color: #33F;
+}
+
+a#archive-filter-link:link, a#archive-filter-link:visited {
+  font-size: 11px;
+  font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, Sans-Serif;
+}
+
+a#archive-filter-link span {
+  display: inline-block;
+  height: 8px;
+  width: 14px;
+  margin-left: 10px;
+  background-image: url(../images/icon_dropdown_arrow.png);
+  background-size: auto 16px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-position .5s;
+  -moz-transition: background-position .5s;
+  -webkit-transition: background-position .5s;
+}
+
+#archive-nav {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  display: table;
+  transition: height .5s;
+  -moz-transition: height .5s;
+  -webkit-transition: height .5s;
+}
+
+#archive-nav-wrapper {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#archive-filter-divider {
+  width: 0;
+  height: 1px;
+  background-color: #CCC;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  transition: width .5s;
+  -moz-transition: width .5s;
+  -webkit-transition: width .5s;
+}
+
+#archive-nav-options {
+  position: absolute;
+  display: none;
+  width: 100%;
+  width: -moz-calc(100% - 30px);
+  width: -webkit-calc(100% - 30px);
+  width: calc(100% - 30px);
+  margin-left: 15px;
+  text-align: center;
+  height: 90px;
+  overflow: hidden;
+}
+
+#archive-nav-options a {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+span.archive-link-divider {
+  width: 3px;
+  height: 3px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #999;
+  vertical-align: 2px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+}

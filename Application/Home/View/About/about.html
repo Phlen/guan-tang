@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <include file="public/head"/>
+  <link rel="stylesheet" href="__PUBLIC__/css/about.css">
+  <script src="__PUBLIC__/js/about.js"></script>
+</head>
+
+<script>
+  $(document).ready(function () {
+// Global variables
+// Mouse events
+// Set-up
+// Mobile set-up
+    if (touchScreen) {
+    }
+  });
+</script>
+<body>
+
+<div id="about-loader">
+  <div id="services-container" class="leadership-2-container">
+    <div id="services-image-container">
+      <img src="__PUBLIC__/images/leader.jpg" alt="author">
+    </div>
+    <div id="services-text">
+      <div id="services-text-container">
+        <div id="services-text-wrapper">
+          <h3>LEADER</h3>
+
+          <p>林观秀，1989年从事室内装璜设计工作.投入店面商业设计工程管理8年。是集室内设计与管理和结合体。</br>
+
+
+            深圳市室内设计师会员协会会员</br>
+
+
+            国际室内建筑/设计师</br>
+
+
+            高级室内建造师</br>
+          </p>
+          <p>
+            Lin Guan Xiu,engaged in interior decoration design work since 1989,who has put himself into
+            engineering supervision of shops designs for 8 years.</br>He is the combination of interior
+            design and management</br>
+            menmber of Shenzhen interior designer association</br>
+            International interior architect/designer</br>
+            Senior interior construction</br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Sub header -->
+<div id="sub-header-container">
+  <ul id="sub-header">
+    <li id="sub-header-leadership"><a href="javascript:;" class="current">LEADER</a></li>
+    <li id="sub-header-services"><a href="{:U('AboutUs/aboutUs')}">About Us</a></li>
+  </ul>
+  <ul id="sub-header-mobile">
+    <li id="sub-header-mobile-current"><a href="javascript:openAboutMobileNav();"></a><span></span></li>
+    <li id="sub-header-mobile-leadership"><a href="javascript:;" class="current">LEADER</a></li>
+    <li id="sub-header-mobile-services"><a href="{:U('AboutUs/aboutUs')}">About Us</a></li>
+  </ul>
+</div>
+<!-- END Sub header -->
+<div id="header-bg"></div>
+
+
+<include file="public/contact"/>
+<include file="public/footer"/>
+</body>
+</html>

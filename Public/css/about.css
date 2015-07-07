@@ -1,0 +1,184 @@
+/* CSS Document */
+/* Template */
+/* line 11, ../sass/about.scss */
+a#nav-link, a#contact-link:link, a#contact-link:visited {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+/* line 16, ../sass/about.scss */
+#about-loader {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  height: 100%;
+  height: -moz-calc(100% - 90px);
+  height: -webkit-calc(100% - 90px);
+  height: calc(100% - 90px);
+}
+
+/* Sub header */
+/* line 28, ../sass/about.scss */
+#sub-header-container {
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  -webkit-box-shadow: 0 1px 1px #E5E3E3;
+  -moz-box-shadow: 0 1px 1px #E5E3E3;
+  box-shadow: 0 1px 1px #E5E3E3;
+  transition: top .5s, height .25s;
+  -moz-transition: top .5s, height .25s;
+  -webkit-transition: top .5s, height .25s;
+  overflow: hidden;
+  background-color: #FFF;
+}
+
+/* line 44, ../sass/about.scss */
+ul#sub-header, ul#sub-header-mobile {
+  margin-top: 15px;
+}
+
+/* line 48, ../sass/about.scss */
+ul#sub-header li {
+  letter-spacing: 1px;
+  font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, Sans-Serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1;
+  display: inline;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/* line 59, ../sass/about.scss */
+ul#sub-header li a {
+  color: #999;
+}
+
+/* line 62, ../sass/about.scss */
+ul#sub-header li .current {
+  color: #33F;
+}
+
+/* line 65, ../sass/about.scss */
+ul#sub-header li a:active, ul#sub-header li a:hover, ul#sub-header-mobile li a:active, ul#sub-header-mobile li a:hover {
+  color: #33F;
+}
+
+/* line 69, ../sass/about.scss */
+ul#sub-header-mobile li {
+  letter-spacing: 1px;
+  font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, Sans-Serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1;
+  margin-top: 15px;
+}
+
+/* line 78, ../sass/about.scss */
+ul#sub-header-mobile li#sub-header-mobile-current a:link, ul#sub-header-mobile li#sub-header-mobile-current a:visited {
+  color: #33F;
+}
+
+/* line 82, ../sass/about.scss */
+ul#sub-header-mobile li#sub-header-mobile-current span {
+  display: inline-block;
+  height: 8px;
+  width: 14px;
+  margin-left: 10px;
+  background-image: url(../images/icon_dropdown_arrow.png);
+  background-size: auto 16px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-position .5s;
+  -moz-transition: background-position .5s;
+  -webkit-transition: background-position .5s;
+}
+
+/* Services */
+/* line 99, ../sass/about.scss */
+#services-image-container, #services-text {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  display: none;
+}
+
+/* line 107, ../sass/about.scss */
+#services-image-container img {
+  position: absolute;
+}
+
+/* line 111, ../sass/about.scss */
+#services-text {
+  background-color: #EEE;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  left: 50%;
+}
+
+/* line 119, ../sass/about.scss */
+.leadership-2-container #services-text {
+  left: 0;
+}
+
+/* line 123, ../sass/about.scss */
+.leadership-2-container #services-image-container {
+  left: 50%;
+}
+
+/* line 126, ../sass/about.scss */
+.leadership-1-container text {
+  left: 50%;
+}
+
+/* line 129, ../sass/about.scss */
+.leadership-1-container #services-image-container {
+  left: 0;
+}
+
+/* line 132, ../sass/about.scss */
+#services-text-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+/* line 139, ../sass/about.scss */
+#services-text-wrapper {
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 147, ../sass/about.scss */
+#services-text-wrapper h3 {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #00234C;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  width: 70%;
+  margin-left: 15%;
+  text-align: left;
+  font-weight: 500;
+}
+
+/* line 160, ../sass/about.scss */
+#services-text-wrapper p {
+  color: #999;
+  font-size: 14px;
+  width: 70%;
+  margin-left: 15%;
+  padding-bottom: 25px;
+  margin-top: 25px;
+  text-align: left;
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <include file="public/head"/>
+  <title>观堂</title>
+  <link rel="stylesheet" href="__PUBLIC__/css/index.css">
+</head>
+<script>
+  $(document).ready(function () {
+// Global variables
+// Mouse events
+// Set-up
+// Mobile set-up
+    if (touchScreen) {
+    }
+  });
+</script>
+<body>
+<div id="slideshow">
+  <volist name="case" id="data" key="k">
+    <div class="slideshow-item" id="slideshow-item-{$k}">
+      <a href="{:U('showDetail/getDetailByExcerpt', array(), '')}/excerpt/{$data.post_title}">
+        <img src="{$data.guid}" alt="{$data.post_title}">
+        <!--<h2>{$data.post_title}</h2>-->
+      </a>
+    </div>
+  </volist>
+  <volist name="case" id="data" key="k">
+    <if condition="($k eq 1)">
+      <div class="slideshow-item" id="slideshow-item-{$k+5}">
+        <a href="{:U('showDetail/getDetailByExcerpt', array(), '')}/excerpt/{$data.post_title}">
+          <img src="{$data.guid}" alt="{$data.post_title}">
+          <!--<h2>{$data.post_title}</h2>-->
+        </a>
+      </div>
+    </if>
+  </volist>
+  <div id="slideshow-click-item">
+    <img src="" alt=""/>
+
+    <h2></h2>
+  </div>
+  <div id="slideshow-controls">
+    <a href="javascript:slideShowControlClick(1);" id="slideshow-control-1" data-id="1" class="slideshow-control"><span></span></a>
+    <a href="javascript:slideShowControlClick(2);" id="slideshow-control-2" data-id="2" class="slideshow-control"><span></span></a>
+    <a href="javascript:slideShowControlClick(3);" id="slideshow-control-3" data-id="3" class="slideshow-control"><span></span></a>
+    <a href="javascript:slideShowControlClick(4);" id="slideshow-control-4" data-id="4" class="slideshow-control"><span></span></a>
+    <a href="javascript:slideShowControlClick(5);" id="slideshow-control-5" data-id="5" class="slideshow-control"><span></span></a>
+  </div>
+</div>
+
+<include file="public/contact"/>
+
+<div class="splash" id="splash">
+  <img src="__PUBLIC__/images/splash.jpg" alt="">
+</div>
+<include file="public/footer"/>
+</body>
+<script src="__PUBLIC__/js/home.js"></script>
+</html>
