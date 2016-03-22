@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title> 观堂</title>
-  <link rel="shortcut icon" href="/work/guan-tang/Public/images/logo.png" />
+  <link rel="shortcut icon" href="/git/guan-tang/Public/images/logo.png" />
   <meta name="description" content=""/>
   <meta name="keywords" content="观堂"/>
   <meta charset="utf-8"/>
@@ -15,30 +15,30 @@
   <meta property="og:site_name" content="观堂"/>
   <meta property="og:description" content="观堂装饰设计公司"/>
   <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-  <link rel="stylesheet" href="/work/guan-tang/Public/css/font/fonts.css">
-  <link rel="stylesheet" href="/work/guan-tang/Public/css/style.css">
-  <script src="/work/guan-tang/Public/js/lib/jquery-latest.min.js"></script>
+  <link rel="stylesheet" href="/git/guan-tang/Public/css/font/fonts.css">
+  <link rel="stylesheet" href="/git/guan-tang/Public/css/style.css">
+  <script src="/git/guan-tang/Public/js/lib/jquery-latest.min.js"></script>
    <!--[if IE]>
-   <script src="/work/guan-tang/Public/js/lib/html5.js"></script>
-   <script src="/work/guan-tang/Public/js/lib/jquery-1.7.2.min.js"></script>
+   <script src="/git/guan-tang/Public/js/lib/html5.js"></script>
+   <script src="/git/guan-tang/Public/js/lib/jquery-1.7.2.min.js"></script>
    <![endif] -->
-  <script src="/work/guan-tang/Public/js/lib/jquery.mousewheel.min.js"></script>
-  <script src="/work/guan-tang/Public/js/lib/jquery.touchSwipe.min.js"></script>
+  <script src="/git/guan-tang/Public/js/lib/jquery.mousewheel.min.js"></script>
+  <script src="/git/guan-tang/Public/js/lib/jquery.touchSwipe.min.js"></script>
   <!--<script src="js/lib/jquery.easing.1.3.js"></script>-->
-  <script src="/work/guan-tang/Public/js/lib/gistfile1.js"></script>
-  <script src="/work/guan-tang/Public/js/lib/modernizr.custom.33755.js"></script>
-  <script src="/work/guan-tang/Public/js/common.js"></script>
+  <script src="/git/guan-tang/Public/js/lib/gistfile1.js"></script>
+  <script src="/git/guan-tang/Public/js/lib/modernizr.custom.33755.js"></script>
+  <script src="/git/guan-tang/Public/js/common.js"></script>
 
 
-  <link rel="stylesheet" href="/work/guan-tang/Public/css/showDetails.css">
-  <!--<link rel="stylesheet" href="/work/guan-tang/Public/css/onepage-scroll.css">-->
-  <!--<script src="/work/guan-tang/Public/js/lib/jquery.onepage-scroll.js"></script>-->
-  <link rel="stylesheet" href="/work/guan-tang/Public/js/fancybox/jquery.fancybox.css">
-  <!--<script src="/work/guan-tang/Public/js/lib/jquery.onepage-scroll.js"></script>-->
-  <script src="/work/guan-tang/Public/js/lib/jquery.easing.1.3.js"></script>
-  <script src="/work/guan-tang/Public/js/fancybox/jquery.fancybox.js?v=2.1.5"></script>
-  <!--<script src="/work/guan-tang/Public/js/lib/jquery.mobile-1.4.5.min.js"></script>-->
-  <script src="/work/guan-tang/Public/js/showDetails.js"></script>
+  <link rel="stylesheet" href="/git/guan-tang/Public/css/showDetails.css">
+  <!--<link rel="stylesheet" href="/git/guan-tang/Public/css/onepage-scroll.css">-->
+  <!--<script src="/git/guan-tang/Public/js/lib/jquery.onepage-scroll.js"></script>-->
+  <link rel="stylesheet" href="/git/guan-tang/Public/js/fancybox/jquery.fancybox.css">
+  <!--<script src="/git/guan-tang/Public/js/lib/jquery.onepage-scroll.js"></script>-->
+  <script src="/git/guan-tang/Public/js/lib/jquery.easing.1.3.js"></script>
+  <script src="/git/guan-tang/Public/js/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+  <!--<script src="/git/guan-tang/Public/js/lib/jquery.mobile-1.4.5.min.js"></script>-->
+  <script src="/git/guan-tang/Public/js/showDetails.js"></script>
 </head>
 
 <script>
@@ -63,7 +63,7 @@
     </div>
     <div id="case-study-cover-title" data-id="1">
       <h3><?php echo ($data["post_title"]); ?></h3>
-      <img src="/work/guan-tang/Public/images/icon_scroll_arrow.png">
+      <img src="/git/guan-tang/Public/images/icon_scroll_arrow.png">
     </div><?php endforeach; endif; else: echo "" ;endif; ?>
 </section>
 
@@ -118,7 +118,7 @@
         </div>
       </a><?php endforeach; endif; else: echo "" ;endif; ?>
     <a href="javascript:;" id="case-studies-jump-arrow">
-      <img src="/work/guan-tang/Public/images/icon_left_arrow.png">
+      <img src="/git/guan-tang/Public/images/icon_left_arrow.png">
     </a>
   </div>
 </section>
@@ -145,24 +145,24 @@
 <!-- Nav -->
 <nav>
 
-  <img src="/work/guan-tang/Public/images/showcase.jpg" alt="" id="nav-image-showcase"/>
+  <img src="/git/guan-tang/Public/images/showcase.jpg" alt="" id="nav-image-showcase"/>
 
-  <img src="/work/guan-tang/Public/images/company.jpg" alt="" id="nav-image-about"/>
+  <img src="/git/guan-tang/Public/images/company.jpg" alt="" id="nav-image-about"/>
 
   <div id="nav-bg"></div>
   <ul id="main-nav">
     <div id="main-nav-wrapper">
-      <li id="main-nav-showcase"><a href="<?php echo U('showCase/showcase');?>" id="showcase">SHOWCASE<span></span></a></li>
+      <li id="main-nav-showcase"><a href="/git/guan-tang/index.php/case" id="showcase">SHOWCASE<span></span></a></li>
       <span class="main-nav-divider"><span></span></span>
-      <li id="main-nav-about"><a href="<?php echo U('About/about');?>" id="about">ABOUT<span></span></a></li>
+      <li id="main-nav-about"><a href="/git/guan-tang/index.php/about" id="about">ABOUT<span></span></a></li>
 
     </div>
   </ul>
   <ul id="main-nav-mobile">
     <div id="main-nav-wrapper-mobile">
-      <li id="main-nav-mobile-showcase"><a href="<?php echo U('showCase/showcase');?>">SHOWCASE</a></li>
+      <li id="main-nav-mobile-showcase"><a href="/git/guan-tang/index.php/case">SHOWCASE</a></li>
       <span class="main-nav-mobile-divider"><span></span></span>
-      <li id="main-nav-mobile-about"><a href="<?php echo U('About/about');?>">ABOUT</a></li>
+      <li id="main-nav-mobile-about"><a href="/git/guan-tang/index.php/about">ABOUT</a></li>
 
     </div>
   </ul>
@@ -176,7 +176,7 @@
       <li id="contact-new-york"><h3>深圳</h3>
 
         <p>深圳市龙岗区布澜路31号李朗国际珠宝文化产业园A4栋1305室<br/>T&mdash;0755-28245576<br/>E&mdash;<a href="mailto:1158391188@guan-tang.com" class="contact-email-ny">1158391188@guan-tang.com</a><br/><a
-            href="<?php echo U('LoadMap/index');?>" class="map-link"><img src="/work/guan-tang/Public/images/icon_map.png" alt=""/>MORE</a></p>
+            href="<?php echo U('LoadMap/index');?>" class="map-link"><img src="/git/guan-tang/Public/images/icon_map.png" alt=""/>MORE</a></p>
       </li>
 
       <span class="contact-divider"><span></span></span>
@@ -195,7 +195,7 @@
       <li id="contact-mobile-new-york"><h3>深圳</h3>
 
         <p>深圳市龙岗区布澜路31号李朗国际珠宝文化产业园A4栋1305室<br/>T&mdash;0755-28245576<br/>E&mdash;<a href="mailto:1158391188@guan-tang.com" class="contact-email-ny">1158391188@guan-tang.com</a><br/><a
-            href="<?php echo U('LoadMap/index');?>" class="map-link"><img src="/work/guan-tang/Public/images/icon_map.png" alt=""/>MORE</a></p>
+            href="<?php echo U('LoadMap/index');?>" class="map-link"><img src="/git/guan-tang/Public/images/icon_map.png" alt=""/>MORE</a></p>
       </li>
 
       <span class="contact-mobile-divider"><span></span></span>

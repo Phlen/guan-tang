@@ -1,0 +1,2046 @@
+[ 2015-05-12T09:39:49+08:00 ] 127.0.0.1 /work/guan-tang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016268s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.005649s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 6   [ RunTime:0.001448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019933s ]
+
+[ 2015-05-12T10:01:42+08:00 ] 127.0.0.1 /work/guan-tang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.004346s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 6   [ RunTime:0.000748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2015-05-12T10:02:29+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.004039s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.001613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2015-05-12T10:03:15+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003508s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.007218s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 6   [ RunTime:0.001332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000584s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003390s ]
+
+[ 2015-05-12T10:16:57+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002479s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 6   [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2015-05-12T10:18:30+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.004294s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 6   [ RunTime:0.000831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2015-05-12T10:20:19+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.005447s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 6   [ RunTime:0.001692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003827s ]
+
+[ 2015-05-12T10:21:25+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002036s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003929s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 6   [ RunTime:0.001219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2015-05-12T10:22:08+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002575s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.005415s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 6   [ RunTime:0.001455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002628s ]
+
+[ 2015-05-12T10:23:04+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.006255s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 6   [ RunTime:0.001520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003171s ]
+
+[ 2015-05-12T10:27:00+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003380s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2015-05-12T10:31:17+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002662s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2015-05-12T10:31:26+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002577s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 6   [ RunTime:0.001580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2015-05-12T10:38:49+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002708s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2015-05-12T10:41:06+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003541s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002038s ]
+
+[ 2015-05-12T10:44:51+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.004286s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002229s ]
+
+[ 2015-05-12T10:44:51+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/content/img/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+ERR: 非法操作:content
+
+[ 2015-05-12T10:44:54+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/content/img/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+ERR: 非法操作:content
+
+[ 2015-05-12T10:45:38+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003938s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002222s ]
+
+[ 2015-05-12T10:47:51+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.004010s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2015-05-12T10:49:08+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003374s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2015-05-12T10:49:39+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003010s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2015-05-12T10:51:21+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.005258s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2015-05-12T10:53:05+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.004116s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001837s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2015-05-12T10:58:53+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003363s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2015-05-12T10:59:24+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003009s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2015-05-12T11:02:34+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003073s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000798s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2015-05-12T11:10:50+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003245s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002540s ]
+
+[ 2015-05-12T11:12:30+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003459s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001445s ]
+
+[ 2015-05-12T11:20:11+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003735s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003144s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000790s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2015-05-12T11:22:01+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003657s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2015-05-12T11:23:47+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000301s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.004093s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.001816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2015-05-12T11:24:49+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002260s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2015-05-12T11:26:11+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.004336s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2015-05-12T12:39:48+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003303s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2015-05-12T15:40:47+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM wp_posts,term_taxonomy [ RunTime:0.024703s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'term_taxonomy' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM wp_posts,term_taxonomy
+SQL: SELECT `ID` FROM `wp_posts`,`term_taxonomy` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000721s ]
+ERR: 1146:Table 'db-guantang.term_taxonomy' doesn't exist
+ [ SQL语句 ] : SELECT `ID` FROM `wp_posts`,`term_taxonomy` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' 
+SQL: SELECT `description` FROM `wp_posts`,`term_taxonomy` WHERE `parent` = '0' AND `count` = '0'  [ RunTime:0.000539s ]
+ERR: 1146:Table 'db-guantang.term_taxonomy' doesn't exist
+ [ SQL语句 ] : SELECT `description` FROM `wp_posts`,`term_taxonomy` WHERE `parent` = '0' AND `count` = '0' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2015-05-12T15:41:05+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM wp_posts,term_taxonomy [ RunTime:0.000171s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'term_taxonomy' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM wp_posts,term_taxonomy
+SQL: SELECT `ID` FROM `wp_posts`,`term_taxonomy` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000356s ]
+ERR: 1146:Table 'db-guantang.term_taxonomy' doesn't exist
+ [ SQL语句 ] : SELECT `ID` FROM `wp_posts`,`term_taxonomy` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' 
+SQL: SELECT `description` FROM `wp_posts`,`term_taxonomy` WHERE `parent` = '0' AND `count` = '0'  [ RunTime:0.000300s ]
+ERR: 1146:Table 'db-guantang.term_taxonomy' doesn't exist
+ [ SQL语句 ] : SELECT `description` FROM `wp_posts`,`term_taxonomy` WHERE `parent` = '0' AND `count` = '0' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001874s ]
+
+[ 2015-05-12T15:41:18+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM wp_posts,term_taxonomy [ RunTime:0.000138s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'term_taxonomy' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM wp_posts,term_taxonomy
+SQL: SELECT `ID` FROM `wp_posts`,`term_taxonomy` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.028732s ]
+ERR: 1146:Table 'db-guantang.term_taxonomy' doesn't exist
+ [ SQL语句 ] : SELECT `ID` FROM `wp_posts`,`term_taxonomy` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' 
+SQL: SELECT `description` FROM `wp_posts`,`term_taxonomy` WHERE `parent` = '0' AND `count` = '0'  [ RunTime:0.000383s ]
+ERR: 1146:Table 'db-guantang.term_taxonomy' doesn't exist
+ [ SQL语句 ] : SELECT `description` FROM `wp_posts`,`term_taxonomy` WHERE `parent` = '0' AND `count` = '0' 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2015-05-12T15:41:40+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM wp_posts,term_taxonomy [ RunTime:0.000138s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'term_taxonomy' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM wp_posts,term_taxonomy
+SQL: SELECT `ID` FROM `wp_posts`,`term_taxonomy` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000325s ]
+ERR: 1146:Table 'db-guantang.term_taxonomy' doesn't exist
+ [ SQL语句 ] : SELECT `ID` FROM `wp_posts`,`term_taxonomy` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' 
+SQL: SELECT `description` FROM `wp_posts`,`term_taxonomy` WHERE `parent` = '0' AND `count` = '0'  [ RunTime:0.000277s ]
+ERR: 1146:Table 'db-guantang.term_taxonomy' doesn't exist
+ [ SQL语句 ] : SELECT `description` FROM `wp_posts`,`term_taxonomy` WHERE `parent` = '0' AND `count` = '0' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2015-05-12T15:41:52+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002234s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000541s ]
+ERR: 错误的查询条件:[parent=>0]
+
+[ 2015-05-12T15:41:54+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002960s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000672s ]
+ERR: 错误的查询条件:[parent=>0]
+
+[ 2015-05-12T15:42:35+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002508s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000581s ]
+ERR: 错误的查询条件:[parent=>0]
+
+[ 2015-05-12T15:47:23+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002415s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002397s ]
+SQL: SELECT `description` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2015-05-12T15:50:00+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002255s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002181s ]
+SQL: SELECT `description` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-05-12T15:50:21+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002556s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.001853s ]
+SQL: SELECT `description` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2015-05-12T15:52:32+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002653s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002308s ]
+SQL: SELECT `description` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001752s ]
+
+[ 2015-05-12T15:53:30+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002571s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002099s ]
+SQL: SELECT `description` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.001546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2015-05-12T15:55:59+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002749s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002160s ]
+SQL: SELECT `description` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2015-05-12T16:00:52+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003087s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.001846s ]
+SQL: SELECT `description` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2015-05-12T16:01:20+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002546s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.001859s ]
+SQL: SELECT `description` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2015-05-12T16:02:33+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002749s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.003195s ]
+SQL: SELECT `description` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2015-05-12T16:02:54+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002140s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.001868s ]
+SQL: SELECT `term_taxonomy_id`,`term_id`,`taxonomy`,`parent`,`count` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: description G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: description G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: description G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: description G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: description G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2015-05-12T16:03:42+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003026s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002094s ]
+SQL: SELECT `term_taxonomy_id`,`term_id`,`taxonomy`,`parent`,`count` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2015-05-12T16:04:03+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002933s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002423s ]
+SQL: SELECT `term_taxonomy_id`,`term_id`,`taxonomy`,`parent`,`count` FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: description G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: description G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: description G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: description G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: description G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2015-05-12T16:04:08+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showDetail/getDetailByExcerpt/excerpt/Waldorf%20Astoria%20Beijing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002968s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_excerpt` = 'Waldorf Astoria Beijing'  [ RunTime:0.000657s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_title` = 'Waldorf Astoria Beijing'  [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003439s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY rand() LIMIT 4   [ RunTime:0.003662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-05-12T16:06:11+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003343s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.003484s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2015-05-12T16:07:11+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003139s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.003065s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.001029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: taxonomy_id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: taxonomy_id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: taxonomy_id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: taxonomy_id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: taxonomy_id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 62 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+NOTIC: [8] Undefined index: id G:\code\work\guan-tang\Application\Runtime\Cache\Home\72a28cb8be3447ed4c00dd67246e7c5f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2015-05-12T16:07:20+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+ERR: 参数错误或者未定义:description
+
+[ 2015-05-12T16:07:54+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002472s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.001886s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2015-05-12T16:08:37+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002299s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.001895s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2015-05-12T16:14:16+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002470s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case'  [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002243s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2015-05-12T16:14:22+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002728s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2015-05-12T16:15:19+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.001814s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: nav G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 85 行.
+NOTIC: [8] Undefined variable: nav G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2015-05-12T16:16:18+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002844s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000843s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2015-05-12T16:18:16+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002447s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000789s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2015-05-12T22:24:15+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002853s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.001048s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2015-05-12T22:36:34+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002422s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000872s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-05-12T22:36:36+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002680s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000817s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2015-05-12T22:39:45+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002657s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000716s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2015-05-12T22:55:52+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002489s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000819s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002544s ]
+SQL: SELECT * FROM `wp_posts`  [ RunTime:0.001021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004104s ]
+
+[ 2015-05-12T22:57:42+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002272s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.001212s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003059s ]
+SQL: SELECT * FROM `wp_posts`  [ RunTime:0.001865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003333s ]
+
+[ 2015-05-12T22:59:05+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.003852s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.001277s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002234s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.001076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001313s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004770s ]
+
+[ 2015-05-12T23:00:15+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002074s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000625s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003189s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.001343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003246s ]
+
+[ 2015-05-12T23:03:27+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002370s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.001092s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002760s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.001226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2015-05-12T23:07:43+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002089s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000674s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002072s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001526s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002447s ]
+
+[ 2015-05-12T23:08:15+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002628s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000776s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002244s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2015-05-12T23:10:08+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002777s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.001497s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003179s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.001399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2015-05-12T23:10:40+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002522s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000800s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002341s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.001051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2015-05-12T23:18:30+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002466s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000846s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003195s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.001181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001688s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002942s ]
+
+[ 2015-05-12T23:22:13+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002909s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000679s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.004022s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.001109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+
+[ 2015-05-12T23:23:55+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002065s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000590s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002102s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+
+[ 2015-05-12T23:23:57+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.001975s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000673s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002349s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+
+[ 2015-05-12T23:24:07+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002856s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000839s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002320s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+
+[ 2015-05-12T23:26:06+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002584s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000652s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002383s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+
+[ 2015-05-12T23:26:06+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.001862s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000986s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002672s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.000811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+
+[ 2015-05-12T23:27:03+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.003131s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000917s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003194s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.001303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+
+[ 2015-05-12T23:27:05+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.002024s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000609s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002305s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.002719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+
+[ 2015-05-12T23:29:00+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.003500s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000935s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002893s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.001428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002006s ]
+
+[ 2015-05-12T23:30:57+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.003449s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '5'  [ RunTime:0.000973s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003452s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.001393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Use of undefined constant description - assumed 'description' G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\code\work\guan-tang\Application\Runtime\Cache\Home\9b728218283807d2f13bf729028d65c3.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001495s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at G:\code\work\guan-tang\ThinkPHP\Common\functions.php:781) G:\code\work\guan-tang\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003612s ]
+

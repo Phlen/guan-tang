@@ -19,7 +19,6 @@ define('APP_DEBUG',True);
 
 // 定义应用目录
 define('APP_PATH','./Application/');
-
 define('PUBLIC_PATH', dirname(__FILE__).DIRECTORY_SEPARATOR.'PUBLIC/' );
 
 // 引入ThinkPHP入口文件

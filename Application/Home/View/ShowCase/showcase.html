@@ -20,7 +20,8 @@
   <div id="case-studies-container">
     <volist name="case" id="data" key="k">
       <div id="case-studies-item-{$k -1}" class="case-studies-item">
-        <a href="{:U('showDetail/getDetailByExcerpt', array(), '')}/excerpt/{$data.post_title}">
+        <a href="__ROOT__/index.php/caseDetail/{$data.post_title}">
+        <!--<a href="{:U('showDetail/index', array(), '')}/excerpt/{$data.post_title}">-->
           <img src="{$data.guid}">
 
           <div class="case-studies-item-shadow"></div>
@@ -40,13 +41,16 @@
   <ul id="sub-header" class="menu">
     <li id="sub-header-casestudies"><a href="javascript:;" class="current">CASE STUDIES</a></li>
     <volist name="nav" id="data">
-      <li><a href="{:U('Gallery/gallery', array(), '')}/id/{$data.term_id}">{$data.description}</a></li>
+      <li>
+        <a href="__ROOT__/index.php/gallery/{$data.term_id}">{$data.description}</a>
+       <!-- <a href="{:U('Gallery/gallery', array(), '')}/id/{$data.term_id}">{$data.description}</a>-->
+      </li>
     </volist>
   </ul>
   <ul id="sub-header-mobile" class="menu">
     <li id="sub-header-mobile-current"><a href="javascript:;">CASE STUDIES</a><span></span></li>
     <volist name="nav" id="data">
-      <li><a href="{:U('Gallery/gallery', array(), '')}/id/{$data.term_id}">{$data.description}</a> </li>
+      <a href="__ROOT__/index.php/gallery/{$data.term_id}">{$data.description}</a>
     </volist>
   </ul>
 </div>

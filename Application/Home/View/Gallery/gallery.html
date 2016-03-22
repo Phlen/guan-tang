@@ -85,15 +85,15 @@
 <!-- Sub header -->
 <div id="sub-header-container">
   <ul id="sub-header" class="menu">
-    <li id="sub-header-casestudies"><a href="{:U('showCase/showcase')}">CASE STUDIES</a></li>
+    <li id="sub-header-casestudies"><a href="__ROOT__/index.php/case" id="showcase">CASE STUDIES</a></li>
     <volist name="nav" id="data">
-      <li><a href="{:U('Gallery/gallery', array(), '')}/id/{$data.term_id}">{$data.description}</a></li>
+      <li><a href="__ROOT__/index.php/gallery/{$data.term_id}">{$data.description}</a></li>
     </volist>
   </ul>
   <ul id="sub-header-mobile">
     <li id="sub-header-mobile-current"><a href="javascript:;">CASE STUDIES</a><span></span></li>
     <volist name="nav" id="data">
-      <li><a href="{:U('Gallery/gallery', array(), '')}/id/{$data.term_id}">{$data.description}</a></li>
+      <li><a href="__ROOT__/index.php/gallery/{$data.term_id}">{$data.description}</a></li>
     </volist>
   </ul>
 </div>

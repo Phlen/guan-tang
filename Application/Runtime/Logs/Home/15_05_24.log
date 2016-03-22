@@ -1,0 +1,72 @@
+[ 2015-05-24T11:30:19+08:00 ] 127.0.0.1 /work/guan-tang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014612s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.012449s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.005005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021533s ]
+
+[ 2015-05-24T11:30:32+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/showCase/showcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.004661s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_excerpt` = 'case' ORDER BY post_date DESC  [ RunTime:0.003720s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.004066s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.002982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002105s ]
+
+[ 2015-05-24T11:30:48+08:00 ] 127.0.0.1 /work/guan-tang/index.php/Home/Gallery/gallery/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `wp_term_taxonomy` [ RunTime:0.004374s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '8'  [ RunTime:0.002326s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = 0 AND `count` = 0  [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.005137s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'attachment'  [ RunTime:0.001913s ]
+SQL: SELECT * FROM `wp_term_taxonomy` WHERE `parent` = '1' ORDER BY term_id DESC  [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
